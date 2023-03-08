@@ -41,7 +41,7 @@ class StripeController extends AbstractController
         
 
         //        if ($payment_intent->status == 'requires_confirmation') {
-        //          $payment_intent->confirm();
+        //         $payment_intent->confirm();
         //    }
         if ($payment_intent->status == 'succeeded') {
             // Payment succeeded, send confirmation email
